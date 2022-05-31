@@ -1,0 +1,45 @@
+.app {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+}
+
+img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+button {
+    padding: 15px 30px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgb(117, 121, 117);
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background: rgb(84, 85, 84);
+    color: white;
+}
+
+button,
+img {
+    margin-top: 20px;
+}
+
+@media all and (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+    img {
+        max-width: 100%;
+        max-height: auto;
+    }
+    button {
+        padding: 10px 20px;
+    }
+}
